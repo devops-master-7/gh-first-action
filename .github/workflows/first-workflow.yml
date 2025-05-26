@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     -  name: printing first name
-       run: echo "Sunil"
-    -  name: printing last name
-       run: echo "Aldar"
-    
+       run: |
+         echo "Sunil"
+         echo "Uttam"
+         echo "Aldar"
