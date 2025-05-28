@@ -9,3 +9,5 @@ jobs:
          echo "Sunil"
          echo "Uttam"
          echo "Aldar"
+    -  name: composite action
+       uses: devops-master-7/composite-actions@main
